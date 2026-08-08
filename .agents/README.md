@@ -34,3 +34,4 @@ Other agent harnesses should treat `.agents/skills/` as the source of truth and 
 ## Current Skills
 
 - [`snapshots`](skills/snapshots/SKILL.md): capture KAI Scheduler snapshots, inspect archives, replay them with `snapshot-tool`, and compare behavior across refs.
+- [`i-have-adhd`](skills/i-have-adhd/SKILL.md): ADHD-friendly agent output (lead with next action, numbered steps, no preamble). From [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd). Invoke with `/i-have-adhd`.
