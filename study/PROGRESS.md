@@ -2,6 +2,18 @@
 
 Newest on top.
 
+## 2026-08-09 — Week 1 DONE (PC local)
+
+- kind + helm instalados (`brew`)
+- `kind create cluster --name kai` (Colima como Docker runtime)
+- Helm: `kai-scheduler` v0.17.0 → namespace `kai-scheduler` deployed
+- Quickstart: `cpu-only-pod` → `Running` no nó `kai-control-plane`
+- Events: Scheduled → Bound → Started (KAI agendou)
+- Conceitos ops fixados: kubectl vs API, namespace, CRD, queues KAI (`scheduling.run.ai`)
+- Control plane local: `https://127.0.0.1:58534`
+- **Próximo:** Week 2 — ler [action-framework.md](../docs/developer/action-framework.md) (celular) → Action vs Plugin
+- Tools: go ✅ kubectl ✅ kind ✅ helm ✅ · cluster `kai` ainda up
+
 ## 2026-08-09 — resume no PC local
 
 - **Week 0 mental map DONE** (sem preencher NOTES — escolha explícita)

@@ -7,18 +7,18 @@
 - [x] Batch + GPU sharing (batch núcleo absorvido; JobSet detalhe = Week 2)
 - [ ] Fill 5 terms in NOTES.md — **skipped on purpose**
 
-## Week 1 — Run ← YOU ARE HERE (PC local)
+## Week 1 — Run
 
-- [ ] Install kind + helm
-- [ ] Create kind cluster `kai`
-- [ ] Helm install KAI
-- [ ] Submit CPU-only pod from quickstart
-- [ ] See scheduler events
+- [x] Install kind + helm
+- [x] Create kind cluster `kai`
+- [x] Helm install KAI
+- [x] Submit CPU-only pod from quickstart
+- [x] See scheduler events
 
-## Week 2 — Core code
+## Week 2 — Core code ← YOU ARE HERE
 
 - [ ] Read `cmd/scheduler`
-- [ ] Read action-framework doc
+- [ ] Read action-framework doc ← **agora (celular)**
 - [ ] Trace Allocate in `pkg/scheduler`
 - [ ] Run one test package
 

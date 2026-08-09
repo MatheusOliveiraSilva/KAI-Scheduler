@@ -24,10 +24,11 @@ Click these (same repo):
 | Item | Status |
 |------|--------|
 | Fork | yes |
-| Current week | **Week 1** — run cluster locally |
+| Current week | **Week 2** — core code |
 | Week 0 | DONE (concepts, deep-dive, fairness, batch, gpu-sharing). NOTES skipped on purpose |
-| Next action | On local PC: install `kind` + `helm` → `kind create cluster --name kai` → Helm install KAI → [quickstart](../quickstart/README.md) CPU pod → `kubectl get events` |
-| Tools | `go` + `kubectl` ready; need `kind` + `helm` for Week 1 |
+| Week 1 | DONE — kind `kai` + Helm v0.17.0 + `cpu-only-pod` Running + events |
+| Next action | Ler [action-framework.md](../docs/developer/action-framework.md) — Action vs Plugin. Depois: `cmd/scheduler` + trace Allocate |
+| Tools | go ✅ kubectl ✅ kind ✅ helm ✅ · cluster `kai` up |
 | Resume | Open [PROGRESS.md](./PROGRESS.md) then [CHECKLIST.md](./CHECKLIST.md) |
 
 ---
