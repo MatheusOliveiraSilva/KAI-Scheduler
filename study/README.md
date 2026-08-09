@@ -24,9 +24,11 @@ Click these (same repo):
 | Item | Status |
 |------|--------|
 | Fork | yes |
-| Current week | **Week 0** — vocabulary / scheduling cycle |
-| Next action | Read [scheduler-concepts.md](../docs/developer/scheduler-concepts.md) → fill 5 terms in [NOTES.md](./NOTES.md) |
+| Current week | **Week 1** — run cluster locally |
+| Week 0 | DONE (concepts, deep-dive, fairness, batch, gpu-sharing). NOTES skipped on purpose |
+| Next action | On local PC: install `kind` + `helm` → `kind create cluster --name kai` → Helm install KAI → [quickstart](../quickstart/README.md) CPU pod → `kubectl get events` |
 | Tools | `go` + `kubectl` ready; need `kind` + `helm` for Week 1 |
+| Resume | Open [PROGRESS.md](./PROGRESS.md) then [CHECKLIST.md](./CHECKLIST.md) |
 
 ---
 
